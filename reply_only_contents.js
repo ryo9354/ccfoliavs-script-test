@@ -20,3 +20,6 @@ function homeBot(message){
     }
     return msg
   }
+
+let ans = homeBot(input)
+return ans
