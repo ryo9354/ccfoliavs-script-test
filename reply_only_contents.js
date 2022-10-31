@@ -1,6 +1,4 @@
 // dicebotの成功/失敗に応答するbot
-// 成否判定ロールでなければ投稿のjsonが返る
-
 function homeBot(message){
     msg = null
     if(message.text == "ねこ"){
@@ -21,5 +19,6 @@ function homeBot(message){
     return msg
   }
 
+// 入出力
 let ans = homeBot(input)
 return ans
